@@ -7,7 +7,6 @@ jobs:
   build:
     name: Start Building...
     runs-on: windows-latest
-    timeout-minutes: 999999999999999999999999999999999999999999999999999999999999999999999999999999999
     
     steps:
       - name: Downloading & Installing Essentials
@@ -19,3 +18,4 @@ jobs:
         run: cmd /c show.bat
 
       
+        run: python time.py
